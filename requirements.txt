@@ -1,0 +1,15 @@
+# Document Processing
+PyPDF2
+python-docx
+
+# GROQ API
+groq
+
+# Web Framework
+streamlit
+
+# JSON handling (usually comes with Python, but listed for completeness)
+json
+
+# Operating system interfaces (usually comes with Python, but listed for completeness)
+os
