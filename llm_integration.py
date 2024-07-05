@@ -20,11 +20,13 @@ class LLMIntegration:
         Please provide the analysis in the following JSON structure:
         {{
             "summary": "A brief summary of the entire contract",
+            "balance_score": A number between 0 and 100 representing how balanced the contract is (0 = heavily favors one party, 100 = perfectly balanced),
             "key_clauses": [
                 {{
                     "type": "The type of clause",
                     "content": "The text of the clause",
-                    "analysis": "A brief analysis of the clause, including any potential issues or risks, highlight the issues in bold if there are any."
+                    "analysis": "A brief analysis of the clause, including any potential issues or risks",
+                    "issues": ["List of specific issues or problematic phrases in this clause"]
                 }}
             ],
             "overall_assessment": "An overall assessment of the contract, including major strengths and weaknesses"
